@@ -21,7 +21,7 @@ The goal is to calculate exponentially weighted moving average of the time in be
 
 The 3 day span it's to see the behavior in the really short term, the 7 day span it's for the behavior for that week. And the 28 day is for the long term behavior. 
 
-# EWMA
+
 
 
 ### Exponentially Weighted Moving Average
