@@ -1,6 +1,14 @@
 # Historical Time in Bed
 
-Sleep plays a vital role in brain function and systemic physiology across many body systems. Problems with sleep are widely prevalent and include deficits in quantity and quality of sleep; sleep problems that impact the continuity of sleep are collectively referred to as sleep disruptions. Numerous factors contribute to sleep disruption, ranging from lifestyle and environmental factors to sleep disorders and other medical conditions.
+Sleep plays a vital role in brain function and systemic physiology across many body systems. Problems with sleep are widely prevalent and include deficits in quantity and quality of sleep.
+
+Sleep is a biologic process that is essential for life and optimal health. Sleep plays a
+critical role in brain function and systemic physiology, including metabolism, appetite
+regulation, and the functioning of immune, hormonal, and cardiovascular systems.
+Normal healthy sleep is characterized by sufficient duration, good quality, appropriate
+timing and regularity, and the absence of sleep disturbances and disorders.
+
+sleep problems that impact the continuity of sleep are collectively referred to as sleep disruptions. Numerous factors contribute to sleep disruption, ranging from lifestyle and environmental factors to sleep disorders and other medical conditions.
 
 ## Shifting Sleep Patterns
 
