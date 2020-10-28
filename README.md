@@ -25,14 +25,24 @@ Afternoon naps for most people typically last between 30 and 60 minutes. Any lon
 
 According to sleep experts, napping can be a good way for people who do not sleep well at night to catch up. They do caution, however, that people with insomnia may make their nighttime sleep problem worse by sleeping during the day. Otherwise, they generally recommend naps for people who feel they benefit from them.
 
+## The Algorithm 
 
+Exponentially Weighted Moving Average (EWMA) and Simple Moving Average (SMA) are similar in that they each measure trends. The two averages are also similar because they are interpreted in the same manner and are both commonly used by analysts to smooth out value fluctuations.
+There are some differences between the two measurements, however. The primary difference between an EWMA and an SMA is the sensitivity each one shows to changes in the data used in its calculation.
+SMA calculates the average of the data values, while EMA gives more weight to current data values. The newest data value will impact the moving average more, with older data values having a lesser impact.
+More specifically, the EWMA gives a higher weighting to recent values, while the simple moving average assigns equal weighting to all values.
+
+### Objective 
 
 The goal is to calculate exponentially weighted moving average of the time in bed for each user using time spans of 3, 7, and 28 days.
 
 The 3 day span it's to see the behavior in the really short term, the 7 day span it's for the behavior for that week. And the 28 day is for the long term behavior. 
 
+### Cleaning Data
 
+We choose to clean zero values from our analysis because it can inflate the expected value for time in bed, as the EWMA its a model that reflects the expected time in bed, and zero values will shift that value greatly. 
 
+The zero values were substitude by the median as is the best value that reflects the user behaviour. 
 
 ### Exponentially Weighted Moving Average
 
